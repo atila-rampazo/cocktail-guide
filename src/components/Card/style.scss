@@ -1,0 +1,17 @@
+.card{
+    width:220px;
+    position: relative;
+    margin:5px;
+    .card__image{
+        max-width: 100%;
+        height: auto;
+    }
+    .card__title{
+        position: absolute;
+        width: 210px;
+        background: rgba(0,0,0,0.5);
+        bottom: 7px;
+        padding:10px 0 10px 10px;
+        font-size: 1rem;
+    }
+}

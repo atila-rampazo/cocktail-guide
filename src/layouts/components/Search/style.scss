@@ -1,0 +1,55 @@
+@import "@/assets/styles/_responsive";
+
+.search {
+  position: relative;
+  .search__input {
+    @include respond-to("small") {
+      margin: 0 20px;
+      width: 337px;
+      font-size: 1rem;
+      height: 50px;
+    }
+    width: 600px;
+    height: 60px;
+    padding: 0 0 0 20px;
+    border: 1px solid orange;
+    border-radius: 30px;
+    font-weight: 700;
+
+    background-color: orange;
+    color: #fff;
+    font-size: 1.5rem;
+    outline: none;
+    transition: all 0.3s ease;
+    &::placeholder {
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px rgb(190, 124, 0);
+    }
+  }
+  .search__button {
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(124, 83, 6);
+    color: #fff;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    @include respond-to("small") {
+      display: none;
+    }
+    &:hover {
+      background-color: #fff;
+      color: orange;
+    }
+  }
+}

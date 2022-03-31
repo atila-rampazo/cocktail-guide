@@ -1,0 +1,14 @@
+@import "_responsive";
+
+$defaultFont: "Poppins", sans-serif;
+$defaultFontSize: 1rem;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: $defaultFont;
+  font-size: $defaultFontSize;
+  user-select: none;
+}

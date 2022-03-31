@@ -1,0 +1,24 @@
+@import "@/assets/styles/_responsive";
+.banner {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    opacity: 0.3;
+    background: url("~@/assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include respond-to("small") {
+      background-position: center center;
+    }
+  }
+}
