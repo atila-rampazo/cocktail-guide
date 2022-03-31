@@ -1,12 +1,12 @@
 <template>
-  <div class="card">
+  <a href="https://google.com.br" title="Cocktail Horse’s Neck" class="card">
     <img
       src="https://www.thecocktaildb.com/images/media/drink/4vobt21643844913.jpg"
       alt=""
       class="card__image"
     />
     <h3 class="card__title">Cocktail Horse’s Neck</h3>
-  </div>
+  </a>
 </template>
 
 <script lang="ts">
