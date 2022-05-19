@@ -1,7 +1,7 @@
 <template>
   <container-component class="wrapper_content">
     <h1 class="wrapper__title">
-      Last Drinks
+      Last Drinks <2021>
       <small class="wrapper__subtitle">List most latest cocktails</small>
     </h1>
     <list-drinks-component />
